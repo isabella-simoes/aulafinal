@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    background: url(imagem\ 1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat
+    
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    justify-content: space-ar;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: grey;   
+}
+
+
+#menu li:last-child a{
+    float: right;
+}
+ 
+#letra{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#imagem{
+    background-size: contain;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+
+
+
+p{
+    font-size: 180%;
+    color: white;
+}
+
+.coluna2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.coluna2 p{
+    padding: 4%
+}
+
+.coluna2 img{
+    margin: 4%;
+}
+
+.coluna3 p{
+    padding: 4%;
+}
+
+.coluna4 p{
+    padding: 4%;
+}
+
+.coluna5 p{
+    padding: 4%;
+}
+
+
+.iconeinsta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconeinsta p{
+    padding: 4%;
+}
+
+.iconeinsta img{
+    margin: 4%;
+}
+
+.iconeface{
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.iconeface p{
+padding: 4%;
+}
+
+.iconeface img{
+    margin: 3%;
+    
+}
+
+.iconewhats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconewhats p{
+    padding: 4%;
+}
+
+.iconewhats img{
+    margin: 4%;
+
+}
+
+.iconemessenger{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconemessenger p{
+    padding: 4%;
+}
+
+.iconemessenger img{
+   margin: 4%;
+}
+
+#fotos{
+   /* height: 200px;
+    width: 300px;*/
+    display: flex;
+}
+#fotos img{
+    margin: 30px;
+}
+#fotos2{
+    display: flex;
+}
+#fotos2 img{
+    margin: 30px;
+}
+.caixa p{
+    border: 2px solid black;
+    width: 500px;
+    background-color: black;
+    margin: 20px;
+}
+#intro p{
+    margin: 40px;
+    border-left: 2px solid purple;
+    background-color: rgb(226, 43, 119);
+    display: block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
